@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(230, 205, 173);
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0 0 -20px 0;
+    color: rgb(164, 121, 65)
+
+}
+h6 {
+    margin: 0 0 0 200px;
+    font-size: 42px;
+    color: rgb(90, 57, 15)
+}
+
+.short {
+    font-weight:bold;
+    margin: 25px 25px 10px 50px;
+}
