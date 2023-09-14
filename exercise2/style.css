@@ -70,5 +70,5 @@ a {
 }
 
 img:hover {
-    size-adjust : 600px;
+    border: 10px rgb(90, 57, 15) ;
 }
