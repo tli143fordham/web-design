@@ -68,3 +68,7 @@ hr {
 a {
     color: rgb(53, 32, 4);
 }
+
+img:hover {
+    width: 600px;
+}
