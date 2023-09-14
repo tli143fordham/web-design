@@ -70,5 +70,5 @@ a {
 }
 
 img:hover {
-    width: 600px;
+    size-adjust : 600px;
 }
