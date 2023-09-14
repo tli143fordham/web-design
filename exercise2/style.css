@@ -1,20 +1,69 @@
 body {
     background-color: rgb(230, 205, 173);
-    font-family: Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
     margin: 0 0 -20px 0;
-    color: rgb(164, 121, 65)
-
+    color: rgb(164, 121, 65);
+    text-align: center;
 }
 h6 {
     margin: 0 0 0 200px;
     font-size: 42px;
-    color: rgb(90, 57, 15)
+    color: rgb(90, 57, 15);
+    text-align: center;
 }
 
-.short {
+.shortl {
     font-weight:bold;
-    margin: 25px 25px 10px 50px;
+    font-size: 36px;
+    margin: 25px 25px 10px 0px;
+    padding: 20px 0 20px 50px;
+    text-align: left;
+    background-color: rgb(164, 121, 65);
+    color: white;
+}
+
+.shortr {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 25px 25px 10px 0px;
+    padding: 20px 50px 20px 0px;
+    text-align: right;
+    background-color: rgb(90, 57, 15);
+    color: white;
+}
+
+.left {
+    text-align: left;
+    margin: 25px 300px 25px 150px;
+    font-family: monospace;
+    font-size: 24px;
+    color: rgb(53, 32, 4)
+}
+
+.right {
+    text-align: right;
+    margin: 25px 150px 25px 300px;
+    font-family: monospace;
+    font-size: 24px;
+    color: rgb(53, 32, 4)
+}
+
+hr {
+    border-color: rgb(53, 32, 4);
+    border-width: 5px;
+    border-style: double;
+}
+
+.highlight {
+    text-shadow: 2px 2px black;
+}
+.highlight:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+a {
+    color: rgb(53, 32, 4);
 }
