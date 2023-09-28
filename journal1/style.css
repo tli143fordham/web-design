@@ -23,68 +23,68 @@ p {
 }
 
 .boxalpha {
-    width: 400px;
+    width: 20vw;
     position: absolute;
     background-image: url(images/Windows-XP-Notepad-nintendofan12s-fun-stuff-37299085-688-417.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 30px 30px 60px;
     top: 100px;
-    left: 1300px;
+    left: 55vw;
 }
 .box1 {
-    width: 600px;
+    width: 27vw;
     position: relative;
     background-image: url(images/Windows-XP-Notepad-nintendofan12s-fun-stuff-37299085-688-417.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 30px 30px 20px;
-    top: 150px;
-    left: 200px;
+    top: 15vh;
+    left: 15vw;
 }
 
 .box2 {
-    width: 500px;
+    width: 22vw;
     position: relative;
     background-image: url(images/Windows-XP-Notepad-nintendofan12s-fun-stuff-37299085-688-417.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 30px 30px 20px;
     top: 150px;
-    left: 900px;
+    left: 55vw;
 }
 
 .box3 {
-    width: 850px;
+    width: 39vw;
     position: absolute;
     background-image: url(images/Windows-XP-Notepad-nintendofan12s-fun-stuff-37299085-688-417.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px 30px 30px 20px;
-    top: 800px;
-    left: 1200px;
+    top: 70vh;
+    left: 55vw;
 }
 
 .paint1 {
-    width: 600px;
+    width: 27vw;
     position: absolute;
     background-image: url(images/40778b3e41fb7858621473ba17645f44.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 63px 10px 80px 80px;
-    top: 200px;
+    top: 15vh;
     right: 0px;
 }
 
 .paint2 {
-    width: 750px;
+    width: 34vw;
     position: absolute;
     background-image: url(images/40778b3e41fb7858621473ba17645f44.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 40px 60px 60px 50px;
-    top: 700px;
-    left: 400px;
+    top: 70vh;
+    left: 25vw;
 }
 
 .footer {
