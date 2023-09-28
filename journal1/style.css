@@ -23,14 +23,14 @@ p {
 }
 
 .boxalpha {
-    width: 20vw;
+    width: 17vw;
     position: absolute;
     background-image: url(images/Windows-XP-Notepad-nintendofan12s-fun-stuff-37299085-688-417.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 30px 30px 60px;
     top: 100px;
-    left: 55vw;
+    left: 45vw;
 }
 .box1 {
     width: 27vw;
@@ -39,8 +39,8 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 30px 30px 20px;
-    top: 15vh;
-    left: 15vw;
+    top: 12vh;
+    left: 10vw;
 }
 
 .box2 {
@@ -51,7 +51,7 @@ p {
     background-size: cover;
     padding: 60px 30px 30px 20px;
     top: 150px;
-    left: 55vw;
+    left: 35vw;
 }
 
 .box3 {
@@ -66,14 +66,14 @@ p {
 }
 
 .paint1 {
-    width: 27vw;
+    width: 22vw;
     position: absolute;
     background-image: url(images/40778b3e41fb7858621473ba17645f44.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 63px 10px 80px 80px;
     top: 15vh;
-    right: 0px;
+    right: 5vw;
 }
 
 .paint2 {
@@ -83,8 +83,8 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
     padding: 40px 60px 60px 50px;
-    top: 70vh;
-    left: 25vw;
+    top: 55vh;
+    left: 15vw;
 }
 
 .footer {
