@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+#full {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+body {
+    background-image: url(images/wp11868901.jpg);
+    background-size: cover;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.boxalpha {
+    width: 400px;
+    position: absolute;
+    background-image: url(images/Windows-XP-Notepad-nintendofan12s-fun-stuff-37299085-688-417.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 30px 30px 60px;
+    top: 100px;
+    left: 1300px;
+}
+.box1 {
+    width: 600px;
+    position: relative;
+    background-image: url(images/Windows-XP-Notepad-nintendofan12s-fun-stuff-37299085-688-417.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 30px 30px 20px;
+    top: 150px;
+    left: 200px;
+}
+
+.box2 {
+    width: 500px;
+    position: relative;
+    background-image: url(images/Windows-XP-Notepad-nintendofan12s-fun-stuff-37299085-688-417.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 30px 30px 20px;
+    top: 150px;
+    left: 900px;
+}
+
+.box3 {
+    width: 850px;
+    position: absolute;
+    background-image: url(images/Windows-XP-Notepad-nintendofan12s-fun-stuff-37299085-688-417.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 30px 30px 20px;
+    top: 800px;
+    left: 1200px;
+}
+
+.paint1 {
+    width: 600px;
+    position: absolute;
+    background-image: url(images/40778b3e41fb7858621473ba17645f44.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 63px 10px 80px 80px;
+    top: 200px;
+    right: 0px;
+}
+
+.paint2 {
+    width: 750px;
+    position: absolute;
+    background-image: url(images/40778b3e41fb7858621473ba17645f44.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 40px 60px 60px 50px;
+    top: 700px;
+    left: 400px;
+}
+
+.footer {
+    background-image: url(images/Windows-XP-Desktop-Transparent-1-nintendofan12s-fun-stuff-40247176-1366-768.png);
+    background-size: cover;
+    position: fixed;
+    bottom:0px;
+    left: 0px;
+    width: 100%;
+}
+
+#test {
+    color:rgba(240, 248, 255, 0);
+}
+
+.mochi {
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+.shake {
+    top: 175px;
+    left: 30px;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+/*.footer {
+    position: fixed;
+    background-image: url(images/Windows-XP-Desktop-Transparent-1-nintendofan12s-fun-stuff-40247176-1366-768.png);
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+}*/
