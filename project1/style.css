@@ -4,6 +4,335 @@
     padding: 0;
 }
 
+body {
+    background-color: rgb(232,216,174);
+}
+
+#opener {
+    background-image: url(images/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    width: 100vw;
+    height: 170vh;
+}
+
+.summary {
+    font-family: 'Figtree', sans-serif;
+    width: 60vw;
+    color:rgb(237, 192, 68);
+    left: 30vw;
+    position: absolute;
+    top: 25vh;
+    font-size: 24px;
+}
+
+.bonusinfo {
+    font-family: 'Figtree', sans-serif;
+    width: 50vw;
+    color:rgb(211, 168, 51);
+    left: 5vw;
+    position: absolute;
+    top: 45vh;
+    font-size: 24px;
+}
+
+.logo{
+    width: 15vw;
+    position: relative;
+    margin: 50px 0px 0px 50px;
+    z-index: 10;
+}
+
+/*h1 {
+    font-family: 'Marcellus SC', serif;
+    font-size: 72px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px rgb(174, 136, 31);
+}*/
+
+.title {
+    position: absolute;
+    top: 5vh;
+    left: 20vw;
+    font-family: 'Marcellus SC', serif;
+    font-size: 84px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px rgb(174, 136, 31);
+    z-index: 10;
+}
+
+.subtitle {
+    position: absolute;
+    left: 60vw;
+    top: 12vh;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size:60px;
+    color: rgb(159, 124, 29);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    z-index: 11;
+}
+
+/*h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size:48px;
+    color: rgb(174, 136, 31);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}*/
+
+.src {
+    font-family: 'Figtree', sans-serif;
+    color: white;
+    margin-left: 10vw;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.lightning {
+    z-index: 9;
+    width: 70vw;
+    align-content: center;
+    position: absolute;
+    top: -300px;
+    opacity:0.5;
+}
+
+.chhead {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 4px 4px rgb(255, 255, 255);
+    color: rgb(23, 69, 207);
+    position: absolute;
+    top: 14vh;
+    font-size: 124px;
+    left: 5vw;
+}
+
+#characters {
+    position: absolute;
+    width: 90vw;
+    margin-top: 60vh;
+}
+
+.characterimg {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    right: 50px;
+    justify-content: flex-end;
+    padding-left: 97vw;
+}
+
+.c1 {
+    width:13vw;
+}
+
+.mainchara {
+    position: relative;
+    width: 70vw;
+    top: 100px;
+    margin:auto;
+}
+.c2 {
+    width: 25vw;
+}
+
+.pj {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 4px 4px rgb(255, 255, 255);
+    color: rgb(23, 69, 207);
+    position: absolute;
+    top: 14vh;
+    left: 30vw;
+    font-size: 72px;
+}
+
+.pjj {
+    font-family: 'Figtree', sans-serif;
+    color:rgb(12, 36, 110);
+    position:absolute;
+    top:30vh;
+    left: 30vw;
+    font-size: 36px;
+}
+
+.ac {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 4px 4px rgb(255, 255, 255);
+    color: rgb(23, 69, 207);
+    position: absolute;
+    top: 84vh;
+    left: 30vw;
+    font-size: 72px;
+}
+
+.acc {
+    font-family: 'Figtree', sans-serif;
+    color:rgb(12, 36, 110);
+    position:absolute;
+    top:100vh;
+    left: 30vw;
+    font-size: 36px;
+}
+
+.gu {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 4px 4px rgb(255, 255, 255);
+    color: rgb(23, 69, 207);
+    position: absolute;
+    top: 157vh;
+    left: 30vw;
+    font-size: 60px;
+}
+
+.guu {
+    font-family: 'Figtree', sans-serif;
+    color:rgb(12, 36, 110);
+    position:absolute;
+    top:170vh;
+    left: 30vw;
+    font-size: 36px;
+}
+
+#adaptations {
+    background-image: url(images/wallpaper1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    top: 340vh;
+    margin: auto;
+    width: 80vw;
+    border-radius: 75px;
+    border: 2px solid #ffffff00;
+}
+
+.adaphead {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 4px 4px rgb(255, 255, 255);
+    color: rgb(56, 96, 219);
+    position: relative;
+    font-size: 124px;
+    top:-20vh;
+    margin:auto;
+    text-align: center;
+}
+
+.v1 {
+    position: relative;
+    padding: 0 0 0 7vw;
+    z-index: 20;
+}
+
+.v1t {
+    position: relative;
+    top:-30vh;
+    padding: 0 7vw 0 7vw;
+    z-index: 19;
+}
+
+.v2 {
+    position: relative;
+    padding: 0 0 0 7vw;
+    z-index: 20;
+}
+
+.v2t {
+    position: relative;
+    top:-30vh;
+    padding: 0 7vw 0 7vw;
+    z-index: 19;
+}
+
+#thoughts {
+    width:100%;
+    position: relative;
+    top:345vh;
+}
+
+.thohead {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 4px 4px rgb(255, 255, 255);
+    color: rgb(106, 140, 241);
+    position: relative;
+    font-size: 124px;
+    top:0;
+    margin:auto;
+    text-align: center;
+}
+
+.final {
+    padding: 50px 0 100px 0;
+    font-family: 'Figtree', sans-serif;
+    width:80vw;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin: auto;
+    font-size: 24px;
+    align-items: center;
+    color: rgb(12, 36, 110)
+}
+.column {
+    flex-grow: 1;
+    text-align: center;
+    width: 40px;
+    margin: 0 30px 0 30px;
+    align-items: center;
+}
 /* [main text] font-family: 'Figtree', sans-serif;
 [highlight text + small heading] font-family: 'Lexend Deca', sans-serif;
 font-family: 'Marcellus SC', serif; [title]*/
+
+#footer{
+    width: 100%;
+    border: solid 8px rgb(65, 107, 234);
+    bottom:0px;
+    position: fixed;
+    height: 50px;
+    background-color: rgb(23, 69, 207);
+    text-align: center;
+    z-index: 50;
+}
+
+.foot {
+    font-family: 'Figtree', sans-serif;
+    color:rgb(211, 168, 51);
+    font-size: 24px;
+    padding: 0 30px 0 0;
+    text-decoration: none;
+}
+
+#titlefooter {
+    color: white;
+    text-shadow: 0 0 10px #fff, 0 0 30px rgb(159, 124, 29), 0 0 40px rgb(159, 124, 29) ;
+}
+
+ul {
+    list-style-type:none;
+    text-align: right;
+}
+
+li {
+    font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px dotted white;
+    padding: 10px 0 10px 0;
+    color: rgb(12, 36, 110);
+}
+
+span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#titletitle {
+    text-transform: none;
+    color:rgb(173, 187, 229);
+    font-weight: normal;
+}
