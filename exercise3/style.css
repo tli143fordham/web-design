@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(75deg, rgb(252, 58, 229), rgb(43, 172, 247));
+    background-size: contain;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height:100vh;
+    background-color: rgba(255, 255, 255, 0.384);
+}
+
+.div1 { grid-area: 1 / 6 / 5 / 9; 
+    background-image: url(images/tumblr_0b6bc4b15d3c3612d26c5fc575c2b024_382426c7_1280.gif), url(images/stars.gif);
+    background-repeat: no-repeat, repeat;
+    background-size: auto, 200px;
+}
+.div2 { grid-area: 1 / 1 / 5 / 4; 
+    background-image: url(images/mik.gif), url(images/tumblr_inline_mmasr3kaIb1qz4rgp540.gif);
+    background-repeat: no-repeat, repeat;
+    background-size: 300px, 75px;
+    background-position: left, center;
+}
+.div3 { grid-area: 1 / 3 / 6 / 7; 
+    background-image: url(images/Aimaina_01.png), url(images/tumblr_583a4e6015e81e067e95b724d46049ca_c4525732_400.gif);
+    background-repeat: repeat, repeat-y;
+    background-position: center, top;
+    background-size: 150px, 50vh;
+}
+.div4 { grid-area: 3 / 4 / 7 / 6; 
+    background-image: url(images/hero_img_miku.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    width:550px;
+    z-index: 100;
+}
+.div5 { grid-area: 6 / 3 / 9 / 7; 
+    background-image: url(images/ga_emblem.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    z-index: 90;
+}
+.div6 { grid-area: 5 / 6 / 9 / 9; 
+    background-image: url(images/Sasakure.UK_FutureEve.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+.div7 { grid-area: 5 / 1 / 9 / 4; 
+    background-image: url(images/01_2309221443072215-1200x1200.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+.div8 { grid-area: 8 / 8 / 9 / 9; 
+    background-image: url(images/3dgifmaker50930.gif);    
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    z-index: 999;
+}
