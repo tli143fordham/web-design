@@ -1,0 +1,483 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color:black;
+}
+
+header {
+    text-align: center;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0px;
+    z-index:999;
+    width: 100%;
+    background-color: black;
+    padding: 1% 10%;
+}
+
+h1 {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.top {
+    width: 40%; 
+    line-height:15px
+}
+
+nav {
+    width: 60%;
+}
+
+#lol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    letter-spacing: -1px;
+    margin-right: 20px;
+}
+#lmao {
+    font-size: 36px;
+    margin-right:20px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
+    color: white;
+    font-size: 24px;
+    letter-spacing: -1px; 
+    font-weight: lighter;
+    border:none;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    color:white;
+
+}
+a:hover {
+    color:rgb(204, 154, 29);
+    background-color: rgb(23, 117, 37)
+}
+
+#opener {
+    background-image: url(images/galaxy.jpg);
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 998;
+}
+
+h2 { 
+    color: rgb(221, 208, 175);
+    font-family: 'Gloock', serif;
+    text-align: center;
+    line-height: 1.5;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.quote {
+    width:500px;
+    position: relative;
+    left: 300px;
+    top: 450px;
+    z-index: 99;
+    opacity: .9;
+}
+
+h2:hover {
+    background-color: rgba(34, 34, 67, 0.493);
+}
+
+.moon1 {
+    position: absolute;
+    left: -100px;
+    top: -100px;
+    background-image: url(images/moon-blue.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+}
+
+.moon2 {
+    position:absolute;
+    bottom: -150px;
+    right: -100px;
+    background-image: url(images/moon-red.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 600px;
+}
+
+.moon3 {
+    background-image: url(images/moon-bw.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90vw;
+    height: 90svh;
+    position: absolute;
+    left:400px;
+    top: 0px;
+    z-index: 70;
+}
+
+.flex-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(images/galaxy.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+h4 {
+    font-family: 'Gloock', serif;
+    font-size: 30px;
+    color:white;
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px dotted rgb(180, 211, 239);
+    padding: 10px 10px 10px 40px;
+    color: aliceblue;
+}
+
+.column {
+    width: 400px;
+    margin: 100px 50px 100px 50px;
+}
+
+span { 
+    color: rgb(221, 208, 175);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.phases-moon {
+    display:grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    gap: 20px;
+    
+}
+
+.grid-item{
+    height:200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-position: center;
+}
+
+.p0 {
+    background-image: url(images/phase0.jpg);
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height:600px;
+}
+
+.p1 {
+    background-image: url(images/phase1.jpg);
+}
+
+.p2 {
+    background-image: url(images/phase2.jpg);
+}
+
+.p3 {
+    background-image: url(images/phase3.jpg);
+}
+
+.p4 {
+    background-image: url(images/phase4.jpg);
+}
+
+.p5 {
+    background-image: url(images/phase5.jpg);
+}
+
+.p6 {
+    background-image: url(images/phase6.jpg);
+}
+
+.p7 {
+    background-image: url(images/phase7.jpg);
+}
+
+.p8 {
+    background-image: url(images/phase8.jpg);
+}
+
+.grid-area {
+    background-color: black;
+    padding: 100px;
+}
+
+p {
+    font-size: 24px;
+    color: rgb(194, 161, 76);
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    -webkit-text-stroke: 1px rgb(160, 124, 32);
+}
+
+a.button {
+    background-color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: block;
+    width: 250px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    box-shadow: 3px 3px gray;
+    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 15px 25px;
+}
+
+
+a.button:hover {
+    color:gray;
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px gray;
+}
+
+#video-section {
+    background-color: black;
+    padding: 100px 0;
+    background-image: none;
+}
+
+iframe {
+    margin: 0 50px;
+}
+
+.text {
+    text-align: center;
+    z-index: 999;
+}
+
+.text h2 {
+    font-size: 36px;
+}
+
+.text h3 {
+    font-size: 16px;
+
+}
+
+.text p {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0 0 50px 0;
+    color: rgb(166, 151, 113);
+}
+/*HELLO TO ALL THE WOMEN OF THE WORLD*/
+
+#mikudayo {
+    width: 25px;
+}
+
+#mikudayo:hover {
+    width: 400px;
+}
+
+#poem-section {
+    padding: 100px 0;
+    position: relative;
+}
+
+.moving-moon {
+    background-image: url(images/moon-blue.png);
+    background-repeat: none;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    animation-name: Amognus;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    z-index: 100;
+}
+
+@keyframes Amognus {
+    0% {left:0; top:0;}
+    12% {left:25%; top:10px;}
+    21% {left:80%; top:100%;}
+    43% {left:30%; top:66%;}
+    47% {left:15%; top:90%;}
+    63% {left:80%; top:100%;}
+    75% {left:70%; top:95px;}
+    81% {left:25%; top:10px;}
+    92% {left:80%; top:100%;}
+    95% {left:30%; top:266%;}
+    100% {left:0; top:0;}
+}
+
+.circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(240, 60, 225);
+    border-radius: 15px;
+    margin: -5px 10px;
+    transition: all 1s;
+}
+
+.circle:hover {
+    background-color: rgb(38, 161, 237);
+    cursor: pointer;
+    width: 100px;
+}
+
+.word {
+    display: block;
+    opacity: 0;
+    transition: all 1s
+}
+
+.circle:hover .word {
+    opacity:1;
+    
+}
+
+.laugh {
+    display: inline-block;
+    padding:5px;
+    margin: 0 20px;
+    font-size: 20px;
+    background-color: aqua;
+    color:white;
+    transition: all 2s;
+}
+
+.laugh:hover {
+    transform: rotate(180deg);
+    cursor: crosshair;
+}
+
+.call {
+    display: inline-block;
+    padding:5px;
+    margin: 0 5px;
+    font-size: 20px;
+    background-color: rgb(255, 140, 0);
+    color:rgb(236, 185, 153);
+    transition: all 2s;
+}
+
+.call:hover {
+    transform: rotateX(360deg);
+    cursor: crosshair;
+}
+
+.hid {
+    display: inline-block;
+    padding:5px;
+    margin: 0 5px;
+    font-size: 20px;
+    background-color: rgb(132, 0, 255);
+    color:rgb(208, 182, 221);
+    transition: all 2s;
+    opacity: 1;
+}
+
+.hid:hover {
+    transform: translate(20px, 0px);
+    cursor: pointer;
+    opacity: 0;
+}
+
+@media screen and (max-width: 800px) {
+h2 {
+    font-size: 25px;
+}
+.quote {
+    width:60%;
+    left: 0px;
+    top: 0px;
+    margin: 50vh auto;
+}
+header {
+    flex-direction: column;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+    
+}
+
+@media screen and (max-width: 700px) {
+.flex-area {
+    flex-direction: column;
+}
+
+.column {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.phases-moon {
+    grid-template-columns: 1fr;
+}
+iframe {
+    width: 80%;
+    margin-bottom: 50px;
+}
+.text p {
+    font-size: 18px;
+}
+.text {
+    width: 80%
+    margin 0 auto;
+}
+#moving-moon {
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes Amognus {
+    0% {left:0; top:0;}
+    12% {left:25%; top:10px;}
+    43% {left:30%; top:66%;}
+    81% {left:25%; top:10px;}
+    95% {left:30%; top:266%;}
+    100% {left:0; top:0;}
+}
+}
