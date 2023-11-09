@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    background-image: url(images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;    
+}
+.title {
+    font-family: 'Yuji Boku', serif;
+    color: rgb(50, 79, 174);
+    font-size: 72px;
+    position: absolute;
+    left: 50px;
+}
+
+.subtitle {
+    font-family: 'Averia Serif Libre', serif;
+    color: white;
+    font-size: 48px;
+    opacity: 0.85;
+    position: absolute;
+    left:150px;
+    top: 50px;
+}
+/*font-family: 'Averia Serif Libre', serif;
+font-family: 'Yuji Boku', serif;*/
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    }
+    
+#title { 
+    grid-area: 1 / 1 / 3 / 3; 
+}
+
+.image {
+    grid-area: 3 / 2 / 7 / 5; 
+    width: 600px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 999;
+    transition: all 1.5s;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 50px;
+}
+
+#page1 .image {
+    background-image: url(images/1.gif);
+}
+#page2 .image {
+    background-image: url(images/2.gif);
+}
+#page3 .image {
+    background-image: url(images/3.gif);
+}
+#page4 .image {
+    background-image: url(images/4.gif);
+}
+#page5 .image {
+    background-image: url(images/5.gif);
+}
+#page6 .image {
+    background-image: url(images/6.gif);
+}
+#page7 .image {
+    background-image: url(images/7.gif);
+}
+#page8 .image {
+    background-image: url(images/8.gif);
+}
+#page9 .image {
+    background-image: url(images/9.gif);
+}
+#page10 .image {
+    background-image: url(images/10.gif);
+}
+#page11 .image {
+    background-image: url(images/11.gif);
+}
+
+.lyric { 
+    grid-area: 3 / 5 / 7 / 8; 
+    opacity: 0;
+    padding: 50px;
+    transition: all 1.5s;
+}
+
+.image:hover + .lyric {
+    display: inline-block;
+    background-color: rgba(50, 79, 174, 0.425);
+    opacity: 1;
+    border-radius: 50px;
+    border: 10px double white;
+  }
+
+.lyricen p {
+    font-family: 'Averia Serif Libre', serif;
+    color: white;
+    font-size: 36px;
+    text-align: right;
+    position: relative;
+    z-index: 100;
+}
+#page1 .lyricen p {
+    bottom: 70px;
+}
+#page2 .lyricen p {
+    bottom: 140px;
+}
+#page3 .lyricen p {
+    bottom: 70px;
+}
+#page4 .lyricen p {
+    bottom: 70px;
+}
+#page5 .lyricen p {
+    bottom: 140px;
+}
+#page6 .lyricen p {
+    bottom: 140px;
+}
+#page7 .lyricen p {
+    bottom: 180px;
+}
+#page8 .lyricen p {
+    bottom: 160px;
+}
+#page9 .lyricen p {
+    bottom: 70px;
+}
+#page10 .lyricen p {
+    bottom: 70px;
+}
+#page11 .lyricen p {
+    bottom: -70px;
+}
+.lyricjp p { 
+    font-family: 'Yuji Boku', serif;
+    color: rgba(108, 47, 250, 0.721);
+    font-size: 30px;
+    position: relative;
+    z-index: 95;
+    top: 50px;
+}
+
+.lyric {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.song { 
+    grid-area: 7 / 4 / 8 / 6; 
+    position: relative;
+    margin: auto;
+    top: 50px;
+}
+
+footer {
+    font-family: 'Yuji Boku', serif;
+    text-align: center;
+    background-color: rgba(108, 47, 250, 0.721);
+    position: fixed;
+    bottom: 50px;
+    z-index: 999;
+    width: 30%;
+    margin: auto;
+    border-radius: 30px;
+    left:35%;
+    right: 35%;
+}
+
+h6 {
+    color:white;
+    font-size: 24px;
+}
