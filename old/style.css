@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(29, 194, 170);
+    /*whats up gamers*/
+    font-family:Helvetica, Arial, sans-serif
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: normal;
+    font-style:oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 0, 0);
+    margin: 20px 0 100px 30px;
+}
+
+a {
+    color:blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:rgb(238, 0, 255);
+    font-size: 54px;
+}
+
+hr {
+    border-color: gold;
+    border-width: 10px;
+}
+
+h6 {
+    text-transform: uppercase;
+    color:green;
+    text-decoration: line-through;
+}
+
+#test {
+    color:rgba(0, 255, 4, 0.811);
+    font-size: 32px;
+}
+
+#test:hover {
+    color: lime;
+    font-size: 12px;
+}
+
+p {
+    color:rgb(255, 157, 0);
+    font-size: 24px;
+    background-color: rgb(133, 19, 129);
+    padding: 50px;
+}
+
+.fortnite {
+    color:rgb(255, 255, 255);
+    font-size:36px;
+    margin: 0 0 0 300px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.fortnite:hover {
+    color: white;
+    text-decoration: overline;
+}
+
+img:hover {
+    background-color: blueviolet;
+}
