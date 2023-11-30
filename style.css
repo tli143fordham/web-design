@@ -1,70 +1,128 @@
-body {
-    background-color: rgb(29, 194, 170);
-    /*whats up gamers*/
-    font-family:Helvetica, Arial, sans-serif
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
 
-h1 {
-    font-size: 72px;
-    font-weight: normal;
-    font-style:oblique;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(255, 0, 0);
-    margin: 20px 0 100px 30px;
+body{
+    background-image: url(images/background.png);
+    background-size: auto 120vh;
+    background-position: center top;
+    overflow: hidden;
+    z-index: 100;
 }
 
-a {
-    color:blueviolet;
-    font-weight: bold;
+#header {
+    position:absolute;
+    margin:auto;
+    left: 10vw;
+    right: 10vw;
+    top: 20vh;
+    z-index: 600;
+}
+
+.curtains {
+    position: absolute;
+    width: 100vw;
+    top:0px;
+    z-index: 400;
+}
+
+.left {
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    z-index: 150;
+}
+
+.right {
+    position: absolute;
+    height: 100%;
+    right: 0px;
+    z-index: 150;
+}
+
+.miku {
+    position: absolute;
+    height: 75vh;
+    bottom: 0px;
+    right: 0px;
+    z-index: 200;
+}
+
+div.buttontd {
+    background-color: rgb(234, 203, 136);
+    font-size: 32px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: block;
+    width: 500px;
+    margin: 60vh auto;
+    text-align: center;
+    box-shadow: 5px 5px rgb(212, 149, 12);
+    color: rgb(138, 99, 15);
+    font-family: 'BioRhyme', serif;
+    padding: 15px 25px;
+    z-index: 500;
+    position: relative;
+}
+
+div.buttontd:hover {
+    color:rgb(65, 46, 7);
+    transform: translate(4px, 4px);
+    box-shadow: 1px 1px rgb(212,149,12);
+}
+
+.links {
+    position: absolute;
+    margin: 30vh 20% auto 20%;
+    font-family: 'BioRhyme', serif;
+    font-size: 32px;
+    color:white;
+    background-color: rgba(138,99,15, 0.3);
+    position: absolute;
+    width: 60%;
+    z-index: 150;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+div.button {
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    z-index: 150;
+    padding-left: 20px;
+    text-shadow: 0 0 30px #fff, 0 0 40px rgb(212, 149, 12)
+}
+
+a.button {
+    left: 2vw;
+    position: relative;
+    color: white;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-    color:rgb(238, 0, 255);
-    font-size: 54px;
-}
-
-hr {
-    border-color: gold;
-    border-width: 10px;
-}
-
-h6 {
-    text-transform: uppercase;
-    color:green;
-    text-decoration: line-through;
-}
-
-#test {
-    color:rgba(0, 255, 4, 0.811);
-    font-size: 32px;
-}
-
-#test:hover {
-    color: lime;
-    font-size: 12px;
-}
-
-p {
-    color:rgb(255, 157, 0);
-    font-size: 24px;
-    background-color: rgb(133, 19, 129);
-    padding: 50px;
-}
-
-.fortnite {
-    color:rgb(255, 255, 255);
-    font-size:36px;
-    margin: 0 0 0 300px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.fortnite:hover {
+a {
+    text-decoration: none;
     color: white;
-    text-decoration: overline;
 }
 
-img:hover {
-    background-color: blueviolet;
+.star {
+    background-image: url(images/star.png);
+    background-repeat: none;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    animation-name: comet;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    z-index: 399;
+}
+
+@keyframes comet {
+    0% {right:0; top:0;}
+    75% {left:80%; top:75%;}
+    100% {bottom:0; left:0;}
 }
