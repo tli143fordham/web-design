@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: url(images/Bg_area_9.png);
+    background-size: auto 100vh;
+    background-position: center top;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.chibis div img {
+    height: 40vh;
+}
+.emu,.rui,.nene,.tsukasa {
+    position: absolute;
+}
+
+.emu {
+    top: 32%;
+    left: -5%;
+}
+
+.rui {
+    top: 30%;
+    left: 40%;
+}
+
+.nene {
+    top: 45%;
+    left: 62%;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.tsukasa {
+    top: 45%;
+    left: 75%;
+}
+.emu-text, .rui-text, .nene-text, .tsukasa-text {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.726);
+    margin: 10%;
+    padding: 25px 75px;
+    font-size: 24px;
+    width: 80vw;
+    height: 25vh;
+    border-radius: 200px;
+    border: 5px rgb(143, 143, 143) solid;
+    display: none; 
+    font-family: "fot-rodin-pron", sans-serif;
+    line-height: 36px;
+    color: rgb(41, 41, 66);
+    z-index: 999;
+}
+
+.emu-img, .rui-img, .nene-img, .tsukasa-img {
+    size: 100vw 100vh;
+    background-color: rgba(41, 41, 66, 0.537);
+    z-index: 800;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+h4 {
+    color: white;
+    border-radius: 50px;
+    border: 5px white solid;
+    font-family: "fot-rodin-pron", sans-serif;
+    font-size: 36px;
+    background-color: rgb(41, 41, 66);
+    position: relative;
+    top: -70px;
+    width: 50%;
+    padding: 10px 10px 10px 20px;
+}
+ p {
+    position: relative;
+    top: -60px;
+}
+.emu-img {
+    background-image: url(images/emubig.png);
+    background-size: auto 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.rui-img {
+    background-image: url(images/ruibig.png);
+    background-size: auto 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.nene-img {
+    background-image: url(images/nenebig.png);
+    background-size: auto 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.tsukasa-img {
+    background-image: url(images/kasabig.png);
+    background-size: auto 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+/**font-family: "fot-rodin-pron", sans-serif;
+font-weight: 600;
+font-style: normal;**/
