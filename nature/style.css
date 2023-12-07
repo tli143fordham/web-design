@@ -1,0 +1,247 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+}
+#leaves {
+    background-color:rgb(199, 221, 240);
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.container div img {
+    height: 30vh;
+}
+.purple-leaf {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    rotate: 30deg;
+}
+.yellow-leaf {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    rotate: -30deg;
+}
+.pink-leaf {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    rotate: 10deg;
+}
+.green-leaf {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    rotate: 20deg;
+}
+.reset {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: red;
+}
+.reset:hover {
+    cursor: pointer;
+    color: blue;
+}
+.purple-leaf2 {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    rotate: -30deg;
+    display: none;
+}
+.purple-leaf:hover {
+    cursor: pointer;
+}
+
+/* flowers */ 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+.div1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+    background-image: url(images/tulip.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:50vh;
+}
+.div2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+    background-image: url(images/rose.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:50vh;
+
+}
+.div3 { 
+    grid-area: 2 / 1 / 3 / 2; 
+    background-image: url(images/lily.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:50vh;
+}
+.div4 { 
+    grid-area: 2 / 2 / 3 / 3; 
+    background-image: url(images/daisy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:50vh;
+}
+.div1-text, 
+.div2-text, 
+.div3-text, 
+.div4-text {
+    position:absolute;
+    top:0;
+    left: 0;
+    font-size: 50px;
+    font-style: italic;
+    color: purple;
+    margin: 10%;
+    display: none;
+}
+.front {
+    opacity:0.5;
+    z-index: 99;
+}
+
+.trees-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    width: 50%;
+}
+
+.dfir {
+    background-image: url(images/douglasfir.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70vh;
+}
+
+.lpine {
+    background-image: url(images/longleafpine.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70vh;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+h3 {
+    font-style: italic;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding:10px 20px;
+    background-color: rgb(47, 99, 18);
+    border-bottom: 1px solid #ccc;
+    color: white;
+    box-shadow: 5px 5px rgb(84, 156, 45);
+}
+
+.tree-text {
+    padding: 20px;
+    font-size: 20px;
+    display:none;
+    height:15vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 50px 0 50px;
+}
+
+.nav-container {
+    position: fixed;
+    top:0;
+    left:0;
+    text-align: center;
+    background-color: rgb(84, 156, 45);
+    width: 100%;
+    z-index: 99;
+}
+
+.link {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: rgb(104, 58, 20);
+}
+
+.hilight {
+    background-color: green;
+    color: yellow;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link-content {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.amogis {
+    color: rgb(84, 156, 45);
+}
+
+@media screen and (max-width: 500px) {
+    .trees-container {
+        flex-direction: column;
+    }
+    .column {
+        width: 100%;
+    }
+    .div1-text, 
+.div2-text, 
+.div3-text, 
+.div4-text {
+    font-size: 30px;
+    
+}
+.container div img {
+    height: 20vh;
+}
+}
