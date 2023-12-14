@@ -1,0 +1,490 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.mainhall {
+    background-image: linear-gradient(rgba(37, 20, 20, 0.75),rgba(0,0,0,0.75)), url(images/mainhallbg.jpg);
+    background-size: 100vw 100vh, 100vw auto;
+    background-position: center top;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+#start div {
+    color:white;
+transition: all 0.5s;
+    text-decoration: none;
+display: flexbox;
+flex-direction: column;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.newgame, .options, .manual {
+    opacity: 0.65;
+    width:30vw;
+    text-align: center;
+    font-size: 72px;
+    position: relative;
+    font-family: 'EB Garamond', serif;
+    margin: auto;
+}
+
+#options div {
+    color:white;
+transition: all 0.5s;
+    text-decoration: none;
+display: flexbox;
+flex-direction: column;
+}
+#options .newgame{
+    width: 50vw;
+
+}
+
+
+#options div:hover {
+    text-shadow: 0 0 5px #e0dcb0, 0 0 10px rgb(255, 255, 255);
+    font-size: 80px;
+    opacity: 1;
+}
+#start div:hover {
+    text-shadow: 0 0 5px #e0dcb0, 0 0 10px rgb(255, 255, 255);
+    font-size: 80px;
+    opacity: 1;
+}
+.startselect {
+    position: relative;
+    margin: 4vh auto;
+}
+.logo img {
+    margin: 16vh 20vw auto 20vw;
+    position: relative;
+    width:60vw;
+
+}
+.tm {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    bottom: 5vh;
+    width: 100%;
+    opacity: 0.75;
+}
+.characters {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100vw;
+    height: 100vh;
+   
+}
+    
+.jill { 
+    grid-area: 1 / 1 / 2 / 2; 
+    background-image: url(images/jillypoo.png);
+    background-size: 40vw;
+    background-position: center 10vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 100vh;
+    
+}
+.chris { 
+    grid-area: 1 / 2 / 2 / 3; 
+    background-image: url(images/chrisiepoo.png);
+    background-size: 40vw;
+    background-position: center 10vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height:100vh;
+}
+
+.charadesc { 
+    padding: 1%;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;
+    background-color: rgba(37,20,20, 0.90);
+    border-radius: 30px;
+    border: 10px rgb(99, 47, 47) solid;
+    margin: auto;
+    width: 30vw;
+    height: 20vh;
+    opacity:0;
+}
+
+.jdesc {
+    position: absolute;
+    bottom: 5vh;
+    left: 10vw;
+}
+
+.cdesc {
+    position: absolute;
+    bottom: 5vh;
+    right: 10vw;
+}
+.jill:hover + .jdesc {
+    display: block;
+    opacity:1;
+}
+
+.chris:hover + .cdesc {
+    display: block;
+    opacity:1;
+}
+
+h3{
+    font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+    font-size: 36px;
+
+}
+#charaselect p {
+    font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+    font-size: 24px;
+}
+#charaselect h1 {
+    color: rgb(167, 167, 167);
+    font-family: 'Cutive Mono', monospace;
+    font-size: 72px;
+    position: absolute;
+    right:3vw;
+    top: 2vh;
+}
+
+body {
+    background-color: black;
+}
+
+#introduction {
+    position: absolute;
+    bottom: 5vh;
+    left: 5vw;
+    width: 75vw;
+    font-size: 48px;
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.contopening {
+    position: absolute;
+    bottom: 0vh;
+    right:-13vw;
+    text-align: right;
+    width: 10vw;
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.contopening:hover {
+    color: rgb(255, 227, 194);
+}
+
+.mansionfront {
+    background-image: linear-gradient(rgba(22, 33, 48, 0.75),rgba(0,0,0,0.75)), url(images/mansionfront.png);
+    background-size: 100vw 100vh, 100vw auto;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.charactertalk {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100vw;
+    height: 100vh;
+   
+}
+    
+.jill { 
+    grid-area: 1 / 1 / 2 / 2; 
+    background-image: url(images/jillypoo.png);
+    background-size: 40vw;
+    background-position: center 10vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 100vh;
+    
+}
+.wesker { 
+    grid-area: 1 / 2 / 2 / 3; 
+    background-image: url(images/weskiepoo.png);
+    background-size: 40vw;
+    background-position: center 10vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height:100vh;
+}
+
+.dialogue {
+    width: 75%;
+    height: 25%;
+    border-radius:32px; 
+    background-color: rgba(0, 0, 0, 0.703);
+    backdrop-filter: blur(6px); 
+    border: 10px #41210b double;
+    position: absolute;
+    bottom: 5vh;
+    margin:auto;
+    color: white;
+    padding: 1%;
+    left: 12.5%;
+}
+
+.dialogue h3 {
+    font-size: 72px;
+    position: relative;
+    top:-9vh;
+    text-shadow: 5px 5px rgb(57, 41, 37);
+    left: 2vh;
+    width: 50%;
+}
+
+.dialogue p {
+    font-size: 48px;
+    font-family: 'Cutive Mono', monospace;
+    position: relative;
+    top:-9vh;
+    left: 5vw;
+}
+
+.p2,.p3,.p4,.p5,.p6,.pchoices,.p8 {
+    display: none;
+}
+
+.pchoices, .dchoices, .echoices, .fchoices, .jchoices,.kchoices {
+    background-color: rgba(0, 0, 0, 0.785);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.button {
+    width: 30%;
+    backdrop-filter: blur(6px); 
+    border: 10px #41210b double;
+    position: relative;
+    margin: auto auto 40px auto;
+    top: 30vh;
+    padding: 1%;
+}
+
+.button p {
+    font-family: 'Cutive Mono', monospace;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+.diningroom {
+    background-image: linear-gradient(rgba(22, 33, 48, 0.486),rgba(0, 0, 0, 0.363)), url(images/diningroom.png);
+    background-size: 100vw 100vh, 100vw auto;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.d2,.d3,.d4,.d5,.d6, .dchoices, .dmap {
+    display: none;
+}
+
+.dmap {
+    background-image: url(images/mansion1f.png);
+    background-size: contain;
+    position: absolute;
+    top: 3vh;
+    right: 3vw;
+    width: 20vw;
+    height: 30vh;
+    background-repeat: no-repeat;
+}
+
+.map {
+    background-image: url(images/mansion1f.png);
+    background-size: contain;
+    position: absolute;
+    top: 3vh;
+    right: 3vw;
+    width: 20vw;
+    height: 30vh;
+    background-repeat: no-repeat;
+}
+#kenneth .jill {
+    display:none;
+}
+
+.zombino {
+    background-image: url(images/zombino.gif);
+    background-size:100vw auto;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+
+}
+
+.tearoom {
+    background-image:url(images/tearoom.png);
+    background-size: 100vw auto;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.e2,.e3,.e4,.e5,.echoices, .zombino{
+    display: none;
+}
+
+.f2, .fchoices, .f3,.f4, .youaredead, .items {
+    display: none;
+}
+
+.inventory {
+    opacity: 0.9;
+    width:20vw;
+    text-align: center;
+    font-size: 72px;
+    position: absolute;
+    top: 30vh;
+    right: 0vw;
+    font-family: 'EB Garamond', serif;
+    margin: auto;
+    color: white;
+}
+
+.yawn {
+    background-image:url(images/yawn.png);
+    background-size: 100vw auto;
+    background-position: center top;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.youaredead {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+.yamchajill {
+    background-image: url(images/yamchajill.png);
+width: 100%;
+height: 80%;
+top:10%;
+background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+}
+
+.death {
+    background-image: url(images/dead.png);
+    width: 100%;
+    height: 60%;
+    top: 20%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: absolute;
+}
+
+.items {
+    background-color: rgba(0, 0, 0, 0.502);
+    border-radius: 20px;
+    width: 20vw;
+    position: absolute;
+    right: 0px;
+    top:40vh;
+}
+
+.items img {
+    width: 6vw;
+}
+
+.exhibitionroom {
+    background-image:url(images/exhibitionroom.png);
+    background-size: 100vw auto;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.g2, .gchoices, .i2, .i3, .jchoices, .i4,.kchoices {
+    display: none;
+}
+
+.library {
+    background-image:url(images/library.png);
+    background-size: 100vw auto;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.courtyard {
+    background-image:url(images/courtyard.png);
+    background-size: 100vw auto;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+.crypt {
+    background-image:url(images/crypt.png);
+    background-size: auto 100vh;
+    background-position: center top;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.laboratory {
+    background-image:url(images/lab.jpg);
+    background-size: 100vw auto;
+    background-position: center top;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+#lab .chris {
+    display: none;
+}
+
+#lab .wesker {
+    display: none;
+}
+
+.q2,.q3,.q4,.q5,.q6,.q7,.q8,.q9 {
+    display: none;
+}
+/**font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-family: 'Cutive Mono', monospace;
+font-family: 'EB Garamond', serif;

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resident Evil</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'qqa8bbi',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <!-- Jquery library from google -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body class="exhibitionroom">
+<section id="speak">
+  <div class="charactertalk">
+    <a class="jill"></a>
+    <div class="dialogue g1">
+      <h3>-</h3>
+      <p>Exploring, you pick up a key with an emblem of a<br>sword on it. It matches an image you've<br>seen around the mansion.<br>Etched on it is a code: <b>REBECCA</b>
+      </p></div>
+    <div class="dialogue g2">
+      <h3>-</h3>
+      <p> The Sword Key has been added to your inventory.
+      </p></div>
+<div class="fchoices">
+  <div class="button ff1"><p>Search the library.</p></div>
+  <div class="button ff2"><p>Search the courtyard.</p></div>
+  <div class="button"><a href="yawn.html"> <p>Search the attic.</p></a></div>
+</div>
+<div class="dialogue f3">
+  <h3>-</h3>
+  <p>The door is locked. Emblazoned on it is an emblem <br>of a sword. To unlock: replace everything after the "j"<br>in the URL with the code etched in the sword key.<br>(Leave the first letter.)
+  </p></div>
+  <div class="dialogue f4">
+    <h3>-</h3>
+    <p>The door is locked. Emblazoned on it is an emblem of armor.
+    </p></div>
+  <div class="map"></div>
+<div class="inventory">Inventory</div>
+<div class="items"><img src="images/handgun.png"><img src="images/knife.png"><img src="images/swordkey.png"> </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

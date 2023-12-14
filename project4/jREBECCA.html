@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resident Evil</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'qqa8bbi',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <!-- Jquery library from google -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body class="library">
+<section id="library">
+  <div class="charactertalk">
+    <a class="jill"></a>
+    <div class="dialogue i1">
+      <h3>-</h3>
+      <p>Wandering the shelves of dusty books, you pick<br>up a key with an emblem of armor on it.<br>It matches an image you've seen around the mansion.<br>Etched on it is a code: <b>BARRY</b>
+      </p></div>
+    <div class="dialogue i2">
+      <h3>-</h3>
+      <p>The Armor Key has been added to your inventory.
+      </p></div>
+      <div class="dialogue i3">
+        <h3>-</h3>
+        <p>A zombie approaches you from behind, catching you<br>off guard. It lunges for your neck, and<br>almost nicks you. 
+        </p></div>
+<div class="jchoices">
+  <div class="button gg2"><p>Search the courtyard.</p></div>
+  <div class="button"><a href="yawn.html"> <p>Search the attic.</p></a></div>
+</div>
+  <div class="dialogue f4">
+    <h3>-</h3>
+    <p>The door is locked. Emblazoned on it is an emblem<br>of armor. To unlock: replace everything after the "j"<br>in the URL with the code etched in the armor key.<br>(Leave the first letter.)
+    </p></div>
+  <div class="map"></div>
+<div class="inventory">Inventory</div>
+<div class="items"><img src="images/handgun.png"><img src="images/knife.png"><img src="images/swordkey.png"><img src="images/armorkey.png"> </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

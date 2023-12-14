@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resident Evil</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'qqa8bbi',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <!-- Jquery library from google -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body onload="typeWriter()" id="introduction">July 24th, 1998.<br> <br></body>
+  <a class="contopening" href="jmhall1.html">
+    <p>CONTINUE...</p>
+  </a>
+  <script>
+  var i = 0;
+  var txt = 'S.T.A.R.S. Bravo Team has lost contact after being sent out on a mission to investigate the grisly murders occurring in the Arklay Mountains. S.T.A.R.S. Alpha Team is sent out to locate them, but is suddenly ambushed. This is where Alpha Team’s nightmare begins...'; /* The text */
+  var speed = 30; /* The speed/duration of the effect in milliseconds */
+  
+  function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("introduction").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+  </script><!--CODE FROM W3SCHOOLS -->
+</body>
+</html>

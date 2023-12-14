@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resident Evil</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'qqa8bbi',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <!-- Jquery library from google -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body class="laboratory">
+<section id="lab">
+  <div class="charactertalk">
+    <a class="jill"></a>
+    <div class="dialogue q1">
+      <h3>Jill</h3>
+      <p>What the hell is this place?
+      </p></div>
+      <a class="chris"></a>
+    <div class="dialogue q2">
+      <h3>Jill</h3>
+      <p>Chris? Is that you?! You're alive!
+      </p></div>
+      <div class="dialogue q3">
+        <h3>Chris</h3>
+        <p>Course I’m alive. Jill, there’s something big going down,<br>and I don’t
+          think we’re part of the equation.
+        </p></div>
+        <div class="dialogue q4">
+          <h3>Jill</h3>
+          <p>C'mon, let's get out of here.
+          </p></div>
+          <div class="dialogue q5">
+            <h3>Wesker</h3>
+            <p>Not so fast, hmm?
+            </p></div>
+            <a class="wesker"></a>
+            <div class="dialogue q6">
+              <h3>-</h3>
+              <p>Trailing behind Wesker is a behemoth of a creature,<br>towering over everyone in the laboratory. 
+              </p></div>
+            <div class="dialogue q7">
+              <h3>Jill</h3>
+              <p>Wesker?! You've been a part of this all along...
+              </p></div>
+              <div class="dialogue q8">
+                <h3>Wesker</h3>
+                <p>The ultimate lifeform... just take it in!<br>T-002 Tyrant, my life's work!
+                </p></div>
+                <a class="dialogue q9" href="index.html">
+                  <h3>-</h3>
+                  <p>The Tyrant lunges at you and Chris. 
+                  </p></a>
+
+  <div class="kchoices">
+    <div class="button"> <a href="laboratory.html"> <p>Let's do it.</p></a></div>
+    <div class="button"><a href="dead.html"> <p>No way.</p></a></div>
+  </div>
+
+  <div class="map"></div>
+<div class="inventory">Inventory</div>
+<div class="items"><img src="images/handgun.png"><img src="images/knife.png"><img src="images/swordkey.png"><img src="images/armorkey.png"> <img src="images/shieldkey.png"> </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
